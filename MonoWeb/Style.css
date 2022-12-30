@@ -1,0 +1,213 @@
+﻿body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../images/background.png);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+@media (min-width: 1920px) {
+    .body-home {
+        min-height: 100vh;
+        overflow-x: hidden;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-image: url(../images/background.png);
+        background-position: center bottom;
+        background-size: cover;
+        animation: 50s walk infinite linear;
+    }
+}
+@keyframes walk {
+    0% {
+        background-size: 100% auto;
+    }
+
+    50% {
+        background-size: 140% auto;
+    }
+
+    100% {
+        background-size: 100% auto;
+    }
+}
+
+/* General */
+.container-fluid {
+    padding: 0 !important;
+    margin-bottom: -50px;
+}
+.container-fluid:after {
+    content: "";
+    display: block;
+}
+.vh90 {
+    height: 90vh;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.text-orange {
+    color: rgb(148, 45, 8)
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+.padding-top-30 {
+    padding-top: 30px;
+}
+.padding-top-50 {
+    padding-top: 50px;
+}
+.padding-top-100 {
+    padding-top: 100px;
+}
+.padding-left-30 {
+    padding-left: 30px;
+}
+
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
+}
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+.underline-row {
+    border-bottom: 2px solid black;
+    opacity 0.5
+}
+
+.margin-10 {
+    margin: 10px;
+}
+.margin-20 {
+    margin: 20px;
+}
+.margin-30 {
+    margin: 30px;
+}
+.margin-40 {
+    margin: 40px;
+}
+
+.btn-custom {
+    background-color: #343a40 !important;
+    color: rgb(255, 125, 78) !important;
+}
+
+.opacity-7 {
+    opacity: 0.7
+}
+.on-top {
+    z-index: 3;
+}
+
+h1, h2, p {
+    color: rgb(148, 45, 8)
+}
+
+/* Game Page */
+#MainBoard {
+    background-image: url(../Images/GreenColour.jpg);
+    border: 2px solid black;
+    opacity: 0.7;
+    min-height: 803px;
+    min-width: 803px;
+    position:relative
+}
+
+#GameDetails {
+    background-image: url(../Images/GreenColour.jpg);
+    border: 2px solid black;
+    opacity: 0.7;
+    min-height: 803px;
+    min-width: 803px;
+}
+#DatabaseDetails {
+    background-image: url(../Images/GreenColour.jpg);
+    border: 2px solid black;
+    opacity: 0.7;
+}
+
+.boardimg {
+    background-image: url(../images/board.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+.playerStats {
+}
+
+.GameInfoText{
+
+}
+.Movement {
+}
+
+.rollbutton {
+    padding: 5px;
+}
+
+
+.infoLabel {
+    display: block;
+    text-align: right;
+    padding-left: 0px;
+}
+
+.textlabel {
+    display: block;
+    text-align: justify;
+}
+
+
+.TopandBottomSideBoard {
+    width: 45px;
+    height: 80px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+}
+.LeftSideBoard {
+    width: 80px;
+    height: 45px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+}
+.RightSideBoard {
+    width: 80px;
+    height: 45px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 470px;
+}
+.CornerBoard {
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+}
+
+.dice {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+}
+.CharacterImage {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
